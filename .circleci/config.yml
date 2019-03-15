@@ -21,6 +21,8 @@ jobs:
           command: |
             sudo npm i -g serverless
             npm install
+            npm install --save-dev mocha
+            npm install --save-dev chai
 
       - save_cache:
           paths:
