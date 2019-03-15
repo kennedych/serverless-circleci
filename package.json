@@ -1,0 +1,9 @@
+{
+    "name": "circleci",
+    "version": "1.0.0",
+    "description": "Testing our CI/CD with CircleCI and AWS Lambda",
+    "main": "handler.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha **/*.spec.js"
+    }
+}
